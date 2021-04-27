@@ -1,6 +1,4 @@
-function redir() {
-    location.replace("http://www.khoedep.vn/kem-tron-la-gi-duong-trang-da/")
-}
+
 var cartId = "cart";
 
 var localAdapter = {
