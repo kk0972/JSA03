@@ -1,4 +1,3 @@
-
 var cartId = "cart";
 
 var localAdapter = {

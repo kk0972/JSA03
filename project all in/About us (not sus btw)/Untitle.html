@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        /*set center*/
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 500px;
+            margin: auto;
+            font-family: "SF Pro Display";
+        }
+        /*assign full width inputs*/
+        
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        /*set a style for the buttons*/
+        
+        button {
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 10%;
+        }
+        /* set a hover effect for the button*/
+        
+        button:hover {
+            opacity: 0.8;
+        }
+        /*set extra style for the signup button*/
+        
+        .signupbtn {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #022af0;
+        }
+        /*centre the display image inside the container*/
+        
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+        }
+        /*set image properties*/
+        
+        img.avatar {
+            width: 40%;
+            border-radius: 50%;
+        }
+        /*set padding to the container*/
+        
+        .container {
+            padding: 16px;
+        }
+        /*set the forgot password text*/
+        
+        span.psw {
+            float: right;
+            padding-top: 16px;
+        }
+        /*set styles for span and signup button on small screens*/
+        
+        @media screen and (max-width: 300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+            .signupbtn {
+                width: 100%;
+            }
+        }
+        /*style của navbar*/
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        nav {
+            background-color: aqua;
+            height: 40px;
+        }
+        
+        .max-width {
+            max-width: 1300px;
+            height: 40px;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .logo {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .logo img {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .max-width ul {
+            width: 350px;
+            text-decoration: none;
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+        }
+        
+        .max-width ul li {
+            text-align: center;
+            line-height: 40px;
+            width: 50px;
+            height: 40px;
+            font-family: "SF Pro Display";
+            font-weight: lighter;
+        }
+        
+        .max-width ul li:hover {
+            transition: 280ms;
+            background-color: rgb(5, 255, 255);
+            opacity: 0.85
+        }
+        
+        .humble {
+            font-family: "SF Pro Display";
+        }
+        
+        @import url(//db.onlinewebfonts.com/c/3cff9206b4c8d578245ef1aaeeaf9e84?family=SF+Pro+Display);
+        @font-face {
+            font-family: "SF Pro Display";
+            src: url("//db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.eot");
+            src: url("//db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.woff") format("woff"), url("//db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.svg#SF Pro Display") format("svg");
+        }
+    </style>
+    <link rel="stylesheet" href="./Apple_files/fonts" type="text/css" media="all">
+    </style>
+</head>
+
+<body>
+    <link href="//db.onlinewebfonts.com/c/3cff9206b4c8d578245ef1aaeeaf9e84?family=SF+Pro+Display" rel="stylesheet" type="text/css" />
+    <!--đây là navigation bar-->
+    <nav>
+        <div class="max-width">
+            <div class="logo">
+                <a href="../index.html"><img src="https://i.pinimg.com/originals/74/65/f3/7465f30319191e2729668875e7a557f2.png" alt=""></a>
+            </div>
+            <ul class="menu">
+                <a href="../index.html" style="text-decoration: none">
+                    <li>Home</li>
+                </a>
+                <a href="../index.html" style="text-decoration: none">
+                    <li>Page</li>
+                </a>
+                <a href="Untitle.html" style="text-decoration: none">
+                    <li>About</li>
+                </a>
+                <a href="../index.html" style="text-decoration: none">
+                    <li>Contact</li>
+                </a>
+                <a href="../Giỏ hàng  3/index.html" style="text-decoration: none">
+                    <li>Cart</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <h1 class="humble">Về kem trộn</h1>
+        <p class="humble">Hãy search trên Google Chrome, Safari, Firefox, Edge hay Internet Explorer để tìm hiểu thêm vì trang web này độ dài có hạn nên hãy xem đi rồi mua sản phẩm của chúng tôi thực ra sản phẩm của chúng tôi rất xịn hãy mua nó đi dù chưa thực sự sản xuất và bạn không thể bấm nút thanh toán nên không mua được đâu à không tôi sẽ đăng lên kickstarter để pledge với mức giá 100000$ rồi sẽ chính thức ra mắt sản phẩm thế nhé ôk yew trem</p>
+        <h1 class="humble">Về chúng tôi</h1>
+        <p class="humble">chúng tôi là một công ty có tham vọng bá chủ thế giới với những sản phẩm chất lượng từ thấp đến cao, giá từ thấp đến siêu đắt dành cho những người không có thời gian sử dụng quá nhiều sản phẩm dưỡng da nên chúng tôi đã kết hợp tất cả thành một sản phẩm dành cho những khách hàng quý giá.</p>
+</body>
+
+</html>
